@@ -1,0 +1,13 @@
+name: Denis Shakhov 
+job: QA Engineer
+level: junior
+email: denis.sh23@gmail.com
+description: |
+  Окончил курс "Инженер по тестированию" в Hexlet.
+
+skills: 
+  - функциональное тестирование
+  - написание багрепортов
+  - составление тест-кейсов
+  - Postman
+  - основы SQL
