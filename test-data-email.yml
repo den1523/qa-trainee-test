@@ -1,0 +1,12 @@
+# Примеры тестовых данных для тестирования поля ввода электронной почты:
+
+Correct:
+  test@mail.ru
+  123t@gmail.com
+  Protest.23@ya.ru
+
+Incorrect:
+  --_@ya.ru
+  праfegmail
+  мэйл@мэйл.com
+  ydfd.com
