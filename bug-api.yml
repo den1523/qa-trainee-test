@@ -1,0 +1,38 @@
+---
+- summary: |
+    По запросу GET/store/inventory ответ сервера не соответсвует примеру значения
+  environment: |
+    Postman   10.15.6
+  steps-to-reproduce: |
+    1. На странице https://petstore.swagger.io/ находим раздел store (Access to Petstore orders)
+    2. Выбираем запрос GET/store/inventory
+    3. Нажимаем кнопку "Try it out" для генерирования тела запроса
+    4. Нажатием кнопки "Execute" генерируем тело запроса
+    5. Копируем данные в Postman для тестирования запроса
+    6. Проводим тестирование запроса в Postman
+  expected-result: |
+    {
+  "additionalProp1": 0,
+  "additionalProp2": 0,
+  "additionalProp3": 0
+  }
+  actual-result: |
+    {
+    "totvs": 4,
+    "sold": 16,
+    "placed": 1,
+    "string": 350,
+    "waiting": 1,
+    "unavailable": 3,
+    "pending": 13,
+    "available": 545,
+    "soldout": 1,
+    "sleeping": 1,
+    "Unavailable": 1,
+    "not available": 1,
+    "Available": 3,
+    "chixaet": 11,
+    "free": 1,
+    "Not available": 1
+}
+
